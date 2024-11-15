@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014099326468",
+    "project_id": "dr-appoinment-app0",
+    "storage_bucket": "dr-appoinment-app0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014099326468:android:2d28ffca10c283e8a02751",
+        "android_client_info": {
+          "package_name": "com.example.drappoinmentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWnr33WnZrzxMMZgdnfxD917H0LvGz5pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

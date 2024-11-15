@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dr.Appoinment App</string>
+    <string name="consult_only_with_a_ndoctor_you_trust">Consult only with a\n<font color='#1FC29D'>Doctor you trust</font></string>
 </resources>
