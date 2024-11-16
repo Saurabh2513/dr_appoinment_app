@@ -1,8 +1,7 @@
-package com.example.drappoinmentapp
+package com.example.drappoinmentapp.Activity
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.example.drappoinmentapp.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : BaseActivity() {
