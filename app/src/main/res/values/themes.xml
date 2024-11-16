@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.DrAppoinmentApp" parent="Base.Theme.DrAppoinmentApp" />
+    <style name="circleImageView">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
 </resources>
