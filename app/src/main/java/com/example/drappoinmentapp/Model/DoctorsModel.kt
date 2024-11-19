@@ -16,7 +16,7 @@ data class DoctorsModel(
     val Time : String = "",
     val Location : String = "",
     val Mobile : String = "",
-    val Petiens : String = "",
+    val Patiens : String = "",
     val Rating : Double = 0.0,
     val Site : String = "",
 
@@ -53,7 +53,7 @@ data class DoctorsModel(
         parcel.writeString(Time)
         parcel.writeString(Location)
         parcel.writeString(Mobile)
-        parcel.writeString(Petiens)
+        parcel.writeString(Patiens)
         parcel.writeDouble(Rating)
         parcel.writeString(Site)
     }
