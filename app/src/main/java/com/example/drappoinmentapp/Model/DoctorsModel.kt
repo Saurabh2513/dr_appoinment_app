@@ -10,7 +10,7 @@ data class DoctorsModel(
     val Name: String = "",
     val  Picture: String = "",
     val Special: String = "",
-    val Experience: Int = 0,
+    val Experiense: Int = 0,
     val Cost : String = "",
     val Date : String = "",
     val Time : String = "",
@@ -47,7 +47,7 @@ data class DoctorsModel(
         parcel.writeString(Name)
         parcel.writeString(Picture)
         parcel.writeString(Special)
-        parcel.writeInt(Experience)
+        parcel.writeInt(Experiense)
         parcel.writeString(Cost)
         parcel.writeString(Date)
         parcel.writeString(Time)

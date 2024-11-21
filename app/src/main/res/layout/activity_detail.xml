@@ -27,7 +27,6 @@
                     android:id="@+id/backBtn"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginTop="48dp"
                     android:padding="12dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -54,10 +53,10 @@
                     app:layout_constraintGuide_percent="0.5" />
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/img"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:scaleType="centerCrop"
+                    android:layout_height="0dp"
+                    android:scaleType="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -68,7 +67,7 @@
                     android:id="@+id/titelTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="48dp"
+                    android:layout_marginTop="60dp"
                     android:text="Name"
                     android:textColor="@color/white"
                     android:textSize="18sp"
@@ -93,7 +92,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/half_black_bg"
                     app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -206,9 +205,9 @@
                             android:id="@+id/patiensTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:layout_marginTop="8dp"
                             android:text="-"
+                            android:gravity="center"
                             android:textColor="@color/darkGreen" />
                     </LinearLayout>
 
@@ -235,9 +234,9 @@
                             android:id="@+id/experiensTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:layout_marginTop="8dp"
                             android:drawablePadding="8dp"
+                            android:gravity="center"
                             android:text="-"
                             android:textColor="@color/darkGreen" />
                     </LinearLayout>
@@ -296,6 +295,7 @@
                     android:text="bio" />
 
                 <LinearLayout
+                    android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
@@ -439,6 +439,7 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/makeBtn"
                     android:layout_margin="16dp"
+                    android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="@color/white"
